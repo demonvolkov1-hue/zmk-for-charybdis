@@ -281,7 +281,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - '&mkp LCLK'
+  - LCLK
   - ''
   - ''
   - ''
