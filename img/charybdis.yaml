@@ -49,12 +49,12 @@ layers:
   - .
   - {t: /, h: Mouse}
   - ESC
-  - {t: Enter, h: Lower}
   - LEFT WIN
-  - Alt
+  - Space
+  - {t: Enter, h: Lower}
   - {t: Enter, h: Raise}
   - Alt
-  - Space
+  - Alt
   - CAPSLOCK
   - DEL
   Lower:
@@ -106,12 +106,12 @@ layers:
   - F11
   - F12
   - PgDn
-  - {type: held}
   - LEFT WIN
-  - Alt
+  - Space
+  - {type: held}
   - Enter
   - Alt
-  - Space
+  - ''
   - ''
   - ''
   Raise:
@@ -163,12 +163,12 @@ layers:
   - →
   - ''
   - ''
-  - Enter
   - LEFT WIN
-  - Alt
+  - Space
+  - Enter
   - {type: held}
   - Alt
-  - Space
+  - ''
   - ''
   - ''
   Mouse:
@@ -281,7 +281,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - LCLK
+  - '&mkp LCLK'
   - ''
   - ''
   - ''
