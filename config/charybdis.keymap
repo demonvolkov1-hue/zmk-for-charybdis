@@ -13,16 +13,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    // Этот блок создает кастомное поведение для энкодера, используя подсистему мыши
-    behaviors {
-        rot_scroll: rot_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <30>; 
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -35,7 +25,7 @@
                                  &kp LEFT_WIN  &kp SPACE     &lt 1 ENTER     &lt 2 ENTER  &kp RIGHT_ALT
                                                &kp LEFT_ALT  &kp CAPSLOCK    &kp DELETE
             >;
-            sensor-bindings = <&rot_scroll>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
         };
 
         Lower {
@@ -47,7 +37,7 @@
                                           &kp LEFT_WIN  &kp SPACE     &trans         &kp ENTER      &kp RIGHT_ALT
                                                         &none         &none          &none
             >;
-            sensor-bindings = <&rot_scroll>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
         };
 
         Raise {
