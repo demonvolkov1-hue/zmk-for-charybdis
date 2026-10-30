@@ -25,19 +25,19 @@
                                  &lt 1 ENTER   &kp LEFT_WIN  &kp LEFT_ALT    &lt 2 ENTER  &kp RIGHT_ALT
                                                &kp SPACE     &kp CAPSLOCK    &kp DELETE
             >;
-            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Lower {
             bindings = <
 &kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &kp N1           &kp N2        &kp N3        &kp N4        &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
-&kp LSHFT  &kp N5           &kp N6        &kp N7        &kp N8        &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LCTRL  &kp N9           &kp N0        &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
+&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
+&kp LSHFT  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
+&kp LCTRL  &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
                                           &trans        &kp LEFT_WIN  &kp LEFT_ALT   &kp ENTER      &kp RIGHT_ALT
                                                         &kp SPACE     &none          &none
             >;
-            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Raise {
@@ -69,7 +69,7 @@
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
 &none        &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &none
 &bootloader  &none         &mkp RCLK     &none         &mkp LCLK  &none         &none       &mkp LCLK  &none         &mkp RCLK     &none         &bootloader
-                                         &none         &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK
+                                         &none         &mkp LCLK  &mkp RCLK     &mkp RCLK   &kp LCLK
                                                        &none      &none         &none
             >;
         };
