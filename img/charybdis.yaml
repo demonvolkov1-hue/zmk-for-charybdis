@@ -52,8 +52,8 @@ layers:
   - LEFT WIN
   - Space
   - {t: Enter, h: Lower}
-  - {t: Enter, h: Raise}
   - Alt
+  - {t: Enter, h: Raise}
   - Alt
   - CAPSLOCK
   - DEL
@@ -109,8 +109,8 @@ layers:
   - LEFT WIN
   - Space
   - {type: held}
-  - Enter
   - Alt
+  - Enter
   - ''
   - ''
   - ''
@@ -166,8 +166,8 @@ layers:
   - LEFT WIN
   - Space
   - Enter
-  - {type: held}
   - Alt
+  - {type: held}
   - ''
   - ''
   - ''
