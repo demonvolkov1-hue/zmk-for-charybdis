@@ -49,12 +49,12 @@ layers:
   - .
   - {t: /, h: Mouse}
   - ESC
-  - {t: Enter, h: Lower}
   - LEFT WIN
-  - Alt
-  - Alt
-  - {t: Enter, h: Raise}
   - Space
+  - {t: Enter, h: Lower}
+  - {t: Enter, h: Raise}
+  - Alt
+  - Alt
   - CAPSLOCK
   - DEL
   Lower:
@@ -106,12 +106,12 @@ layers:
   - F11
   - F12
   - PgDn
-  - {type: held}
   - LEFT WIN
-  - Alt
-  - Alt
-  - Enter
   - Space
+  - {type: held}
+  - Enter
+  - Alt
+  - ''
   - ''
   - ''
   Raise:
@@ -163,12 +163,12 @@ layers:
   - →
   - ''
   - ''
-  - Enter
   - LEFT WIN
-  - Alt
-  - Alt
-  - {type: held}
   - Space
+  - Enter
+  - {type: held}
+  - Alt
+  - ''
   - ''
   - ''
   Mouse:
