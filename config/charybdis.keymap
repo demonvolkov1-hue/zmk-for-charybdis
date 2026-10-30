@@ -25,7 +25,7 @@
                                  &lt 1 ENTER   &kp LEFT_WIN  &kp LEFT_ALT    &lt 2 ENTER  &kp RIGHT_ALT
                                                &kp SPACE     &kp CAPSLOCK    &kp DELETE
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
         };
 
         Lower {
@@ -37,7 +37,7 @@
                                           &trans        &kp LEFT_WIN  &kp LEFT_ALT   &kp ENTER      &kp RIGHT_ALT
                                                         &kp SPACE     &none          &none
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DN>;
         };
 
         Raise {
