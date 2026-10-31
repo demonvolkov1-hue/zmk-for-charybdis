@@ -23,9 +23,9 @@
 &kp LEFT_SHIFT  &kp A    &kp S   &kp D         &kp F         &kp G           &kp H        &kp J          &kp K      &kp L    &kp SEMI     &kp APOS
 &kp LCTRL       &lt 3 Z  &kp X   &kp C         &kp V         &kp B           &kp N        &kp M          &kp COMMA  &kp DOT  &lt 3 SLASH  &kp ESCAPE
                                  &kp LEFT_WIN  &kp SPACE     &lt 1 ENTER     &kp LEFT_ALT &lt 2 ENTER
-                                               &kp CAPSLOCK  &none           &kp DELETE   &none
+                                               &kp CAPSLOCK  &kp LEFT_ALT    &kp DELETE   &none
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
         };
 
         Lower {
@@ -37,7 +37,7 @@
                                           &kp LEFT_WIN  &kp SPACE     &trans         &none          &kp ENTER
                                                         &none         &none          &none
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
         };
 
         Raise {
@@ -60,7 +60,7 @@
                                          &none         &mkp LCLK  &mkp RCLK     &none           &mkp RCLK
                                                        &none      &none         &none
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
         };
 
         Scroll {
