@@ -54,11 +54,13 @@ layers:
   - {t: Enter, h: Lower}
   - {t: Enter, h: Raise}
   - Alt
+  - DEL
   - Alt
   - CAPSLOCK
   - DEL
+  - ''
   Lower:
-  - '~'
+  - TILVE
   - '!'
   - '#'
   - $
@@ -111,6 +113,8 @@ layers:
   - {type: held}
   - Enter
   - Alt
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -171,6 +175,8 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   Mouse:
   - ''
   - ''
@@ -228,6 +234,8 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   Scroll:
   - ''
   - ''
@@ -282,6 +290,8 @@ layers:
   - '&mkp RCLK'
   - '&mkp RCLK'
   - '&mkp LCLK'
+  - ''
+  - ''
   - ''
   - ''
   - ''
