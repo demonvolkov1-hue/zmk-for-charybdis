@@ -52,13 +52,11 @@ layers:
   - LEFT WIN
   - Space
   - {t: Enter, h: Lower}
+  - Alt
   - {t: Enter, h: Raise}
-  - Alt
-  - DEL
-  - Alt
   - CAPSLOCK
+  - Alt
   - DEL
-  - ''
   Lower:
   - '~'
   - '!'
@@ -111,10 +109,8 @@ layers:
   - LEFT WIN
   - Space
   - {type: held}
+  - ''
   - Enter
-  - Alt
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -170,10 +166,8 @@ layers:
   - LEFT WIN
   - Space
   - Enter
+  - ''
   - {type: held}
-  - Alt
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -229,10 +223,8 @@ layers:
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
+  - ''
   - '&mkp RCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -288,10 +280,8 @@ layers:
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - '&mkp RCLK'
+  - ''
   - '&mkp LCLK'
-  - ''
-  - ''
   - ''
   - ''
   - ''
