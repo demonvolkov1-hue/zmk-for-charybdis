@@ -20,3 +20,10 @@
 &left_encoder {
     status = "okay";
 };
+
+/ {
+    left_encoder_listener {
+        compatible = "zmk,input-listener";
+        device = <&left_encoder>;
+    };
+};
