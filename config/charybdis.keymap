@@ -25,7 +25,7 @@
                                  &kp LEFT_WIN  &kp SPACE     &lt 1 ENTER     &kp LEFT_ALT &lt 2 ENTER
                                                &kp CAPSLOCK  &kp LEFT_ALT    &kp DELETE   &none
             >;
-            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Lower {
@@ -37,7 +37,7 @@
                                           &kp LEFT_WIN  &kp SPACE     &trans         &none          &kp ENTER
                                                         &none         &none          &none
             >;
-            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Raise {
@@ -60,7 +60,7 @@
                                          &none         &mkp LCLK  &mkp RCLK     &none           &mkp RCLK
                                                        &none      &none         &none
             >;
-            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Scroll {
